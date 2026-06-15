@@ -94,7 +94,7 @@ cask "brightintosh" do
   homepage "https://github.com/${REPO}"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "BrightIntosh.app"
 
